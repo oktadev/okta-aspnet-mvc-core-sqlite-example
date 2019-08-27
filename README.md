@@ -5,7 +5,7 @@ Sample project for build a basic ASP.NET Core MVC app with SQLite to accompany [
 ## Get Started
 
 ```sh
-git clone https://developer.okta.com/blog/2018/10/29/add-login-to-you-aspnetcore-app
+git clone https://github.com/oktadeveloper/okta-aspnet-mvc-core-sqlite-example.git
 ```
 
 ## Getting Help
