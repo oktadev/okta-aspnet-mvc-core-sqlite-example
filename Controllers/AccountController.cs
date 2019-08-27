@@ -16,14 +16,13 @@ namespace OktaMvc.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
         public IActionResult Logout()
         {
             return new SignOutResult(new[]
             {
-            OktaDefaults.MvcAuthenticationScheme,
-            CookieAuthenticationDefaults.AuthenticationScheme
-        });
+                OktaDefaults.MvcAuthenticationScheme,
+                CookieAuthenticationDefaults.AuthenticationScheme
+            });
         }
     }
 }
